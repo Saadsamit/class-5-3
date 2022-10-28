@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    box-shadow: 5px -5px 10px 5px green;
+}
+ul li a{
+    text-decoration: none;
+    color: orange;
+}
+ul li{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform:capitalize;
+    transition: 0.8s;
+    position: relative;
+    
+}
+
+ul li:hover{
+   background-color: black;
+   font-style: oblique;
+}
+ul li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+ul li:hover ul{
+    display: block;
+}
